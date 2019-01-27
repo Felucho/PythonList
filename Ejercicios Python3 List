@@ -1,0 +1,35 @@
+
+/*
+1.
+inventory is a list of items that are in the warehouse for Bob's Furniture. How many items are in the warehouse?
+Save your answer to inventory_len.
+Hint
+Use len to find the number of items in inventory
+2.
+Select the first element in inventory. Save it to the variable first.
+Stuck? Get a hint
+3.
+Select the last item from inventory and save it to the variable last.
+Stuck? Get a hint
+4.
+Select items from the inventorystarting at index 2 and up to, but not including, index 6.
+Save your answer to inventory_2_6.
+Stuck? Get a hint
+5.
+Select the first 3 items of inventory and save it to the variable first_3.
+Stuck? Get a hint
+6.
+How many 'twin bed's are in inventory? Save your answer to twin_beds.
+Stuck? Get a hint
+7.
+Sort inventory using .sort().
+*/
+inventory = ['twin bed', 'twin bed', 'headboard', 'queen bed', 'king bed', 'dresser', 'dresser', 'table', 'table', 'nightstand', 'nightstand', 'king bed', 'king bed', 'twin bed', 'twin bed', 'sheets', 'sheets', 'pillow', 'pillow']
+inventory_len = len(inventory)
+print(inventory_len)
+first = inventory[0]
+last = inventory[-1]
+inventory_2_6 = inventory[2:6]
+first_3 = inventory[0:3]
+twin_beds = inventory.count('twin bed')
+inventory.sort()
